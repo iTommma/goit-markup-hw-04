@@ -82,7 +82,7 @@ footer .logo:focus {
 
 /* header nav */
 .nav-link,
-.heder-contact {
+.header-contact {
   text-decoration: none;
   color: var(--title-text-color);
   font-size: var(--font-size-14);
@@ -98,13 +98,14 @@ footer .logo:focus {
 }
 
 /* header contacts */
-.heder-contact {
+.header-contact {
   color: var(--primary-text-color);
 }
 
-.heder-contact:hover,
-.heder-contact:focus {
+.header-contact:hover,
+.header-contact:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /* Footer */
@@ -132,9 +133,9 @@ footer {
 }
 
 .footer-address:hover,
-.footer-address:active,
+.footer-address:focus,
 .footer-contact:hover,
-.footer-contact:active {
+.footer-contact:focus {
   color: var(--accent-color);
 }
 
