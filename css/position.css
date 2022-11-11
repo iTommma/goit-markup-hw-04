@@ -262,9 +262,12 @@ height: 44px;
   background: rgba(255, 255, 255, 0.1);
 }
 
-.team-soc-icon,
-.footer-soc-link {
+.team-soc-icon {
   fill: #AFB1B8;
+}
+
+.footer-soc-icon {
+  fill: white;
 }
 
 .team-soc-link:hover .team-soc-icon,
