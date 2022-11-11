@@ -176,33 +176,11 @@ footer .logo {
   height: 120px;
   background: #F5F4FA;
   border-radius: 4px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
 
   display: flex;
     justify-content: center;
     align-items: center;
-
-  
 }
-
-
-/* .feature-icon:nth-child(1) {
-  background-image: url(../images/antenna.svg);
-}
-
-.feature-icon:nth-child(2) {
-  background-image: url(../images/clock.svg);
-}
-
-.feature-icon:nth-child(3) {
-  background-image: url(../images/diagram.svg);
-}
-
-.feature-icon:nth-child(4) {
-  background-image: url(../images/astronaut.svg);
-} */
 
 /* main Specialization */
 .specialization-section {
@@ -248,19 +226,23 @@ footer .logo {
 .team-name {
   margin-bottom: 10px;
 }
+/* ********************************* */
 
-.team-soc-list {
+.team-soc-list,
+.footer-soc-list {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.team-soc-item {
+.team-soc-item,
+.footer-soc-item {
 width: 44px;
 height: 44px;
 }
 
-.team-soc-link {
+.team-soc-link,
+.footer-soc-link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -269,17 +251,25 @@ height: 44px;
   align-items: center;
 }
 
-.team-soc-icon {
+.footer-soc-link {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.team-soc-icon,
+.footer-soc-link {
   fill: #AFB1B8;
 }
 
-.team-soc-link:hover .team-soc-icon {
+.team-soc-link:hover .team-soc-icon,
+.footer-soc-link:hover .footer-soc-icon {
   fill: white;
 }
 
-.team-soc-link:hover {
+.team-soc-link:hover,
+.footer-soc-link:hover {
   background-color: #2196F3;
 }
+/* ********************************* */
 
 /* clients-section */
 .clients-section {
@@ -300,14 +290,31 @@ height: 44px;
 .clients-inem {
 width: 170px;
 height: 92px;
+}
 
+.clients-link {
+  width: 100%;
+  height: 100%;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
 
 display: flex;
 justify-content: center;
-  align-items: center;
+align-items: center;
 }
+
+.clients-icon {
+  fill: #AFB1B8;
+}
+
+.clients-link:hover {
+border-color: var(--accent-color);
+}
+
+.clients-link:hover .clients-icon{
+fill: var(--accent-color);
+}
+
 
 /* ___ portfolio.html */
 /* main Portfolio */

@@ -112,6 +112,11 @@ footer {
   background-color: #2f303a;
 }
 
+.footer-container {
+  display: flex;
+  gap: 70px;
+}
+
 .footer-address,
 .footer-contact {
   text-decoration: none;
@@ -132,6 +137,23 @@ footer {
 .footer-contact:active {
   color: var(--accent-color);
 }
+
+.footer-join {
+padding-top: 12px;
+}
+
+.footer-title-join {
+    font-weight: var(--font-weight-700);
+    font-size: var(--font-size-14);
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: var(--primary-white-color);
+    
+    margin-bottom: 20px;
+}
+
 
 /* Main */
 
